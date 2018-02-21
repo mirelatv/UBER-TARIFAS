@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "project-1",
+    "e.g. staging": "uber-tarifas",
+    "staging": "uber-tarifas"
+  }
+}

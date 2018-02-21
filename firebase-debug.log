@@ -1,0 +1,41 @@
+[debug] [2018-02-21T15:37:17.651Z] ----------------------------------------------------------------------
+[debug] [2018-02-21T15:37:17.655Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Jessica Manturano\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-21T15:37:17.655Z] CLI Version:   3.17.4
+[debug] [2018-02-21T15:37:17.655Z] Platform:      win32
+[debug] [2018-02-21T15:37:17.655Z] Node Version:  v8.9.4
+[debug] [2018-02-21T15:37:17.656Z] Time:          Wed Feb 21 2018 10:37:17 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-21T15:37:17.657Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-21T15:37:17.677Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-21T15:37:17.679Z] > authorizing via signed-in user
+[debug] [2018-02-21T15:37:17.682Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-02-21T15:37:17.682Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/wTC9kdxRia5IyjWb-O7wtOUYMTlGJf5_klEEg2tk6qE',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Feb 21 2018 10:37:17 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-21T15:37:18.104Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-21T15:37:18.168Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/uber-tarifas  
+  
+ Wed Feb 21 2018 10:37:18 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-21T15:37:19.010Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-21T15:37:19.013Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/uber-tarifas/tokens  
+  
+ Wed Feb 21 2018 10:37:19 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-21T15:37:19.771Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Jessica Manturano\Desktop\jessica\Sprint-04\Unidad-5\retos-en-pareja\UBER-TARIFAS'...
+[info] 
+[debug] [2018-02-21T15:37:19.776Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/uber-tarifas  
+  
+ Wed Feb 21 2018 10:37:19 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-21T15:37:20.863Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-21T15:37:20.864Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/717521095531/clients/_:getWebAppConfig  
+  
+ Wed Feb 21 2018 10:37:20 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-21T15:37:21.560Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: firebase use --add
+[info] +  hosting: Local server: http://localhost:5000
+
